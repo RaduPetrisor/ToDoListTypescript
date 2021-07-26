@@ -1,0 +1,14 @@
+com/todolisttypescript/BuildConfig.java
+ com.todolisttypescript.BuildConfig
+com/todolisttypescript/MainApplication.java
+ com.todolisttypescript.MainApplication
+ com.todolisttypescript.MainApplication$1
+com/todolisttypescript/MainActivity.java
+ com.todolisttypescript.MainActivity
+com/todolisttypescript/ReactNativeFlipper.java
+ com.todolisttypescript.ReactNativeFlipper
+ com.todolisttypescript.ReactNativeFlipper$1
+ com.todolisttypescript.ReactNativeFlipper$2
+ com.todolisttypescript.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

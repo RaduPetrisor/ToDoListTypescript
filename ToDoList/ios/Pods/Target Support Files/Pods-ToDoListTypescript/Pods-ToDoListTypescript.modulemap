@@ -1,0 +1,6 @@
+module Pods_ToDoListTypescript {
+  umbrella header "Pods-ToDoListTypescript-umbrella.h"
+
+  export *
+  module * { export * }
+}
