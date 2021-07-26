@@ -23,6 +23,7 @@ function HomeStack(){
                 <Stack.Screen name='ShoppingTasks' component={ShoppingTasks} options={{title: 'Shopping Tasks'}} />
                 <Stack.Screen name='WorkTasks' component={WorkTasks} options={{title: 'Work Tasks'}} />
                 <Button title="New Button" onPress={()=>{}}/>
+                <Button title="New Button1" onPress={()=>{}}/>
             </Stack.Navigator>
         </NavigationContainer>
     )
