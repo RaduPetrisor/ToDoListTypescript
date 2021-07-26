@@ -18,7 +18,7 @@ function HomeStack(){
             <Stack.Navigator initialRouteName='Home'>
                 <Stack.Screen name='Home' component={Home} options={{title: 'Home'}} />
                 <Stack.Screen name='HomeTasks' component={HomeTasks} options={{title: 'Home Tasks'}} />
-                <Stack.Screen name='AddTaskPage' component={HomeTasks} options={{title: 'Add Task'}}/>
+                <Stack.Screen name='AddTaskPage' component={AddTaskPage} options={{title: 'Add Task'}}/>
                 <Stack.Screen name='OtherTasks' component={OtherTasks} options={{title: 'Other Tasks'}} />
                 <Stack.Screen name='ShoppingTasks' component={ShoppingTasks} options={{title: 'Shopping Tasks'}} />
                 <Stack.Screen name='WorkTasks' component={WorkTasks} options={{title: 'Work Tasks'}} />
