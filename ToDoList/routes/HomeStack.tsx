@@ -7,6 +7,7 @@ import OtherTasks from './screens/OtherTasks';
 import ShoppingTasks from './screens/ShoppingTasks';
 import WorkTasks from './screens/WorkTasks';
 import Home from '../components/Home';
+import { Button } from 'react-native';
 
 
 const Stack=createStackNavigator();
@@ -21,6 +22,7 @@ function HomeStack(){
                 <Stack.Screen name='OtherTasks' component={OtherTasks} options={{title: 'Other Tasks'}} />
                 <Stack.Screen name='ShoppingTasks' component={ShoppingTasks} options={{title: 'Shopping Tasks'}} />
                 <Stack.Screen name='WorkTasks' component={WorkTasks} options={{title: 'Work Tasks'}} />
+                <Button title="New Button" onPress={()=>{}}/>
             </Stack.Navigator>
         </NavigationContainer>
     )
